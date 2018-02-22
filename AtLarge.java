@@ -9,7 +9,8 @@ take to reach the leaves (distance from the nearest leaf).
 
 Then we give every barn/node another number, the number of barns away from where the cow Bessie initially started
 from (distance from Bessie's original position). To count how many farmers are needed to effectively corner Bessie,
-I just simply compared the two numbers (the distance from the nearest leaf and the distance from Bessie's initial position). If a barn's distance from the nearest leaf was either the same or one less than the distance from
+I just simply compared the two numbers (the distance from the nearest leaf and the distance from Bessie's initial position).
+If a barn's distance from the nearest leaf was either the same or one less than the distance from
 Bessie's original position, then I knew we needed a farmer, adding one to the final count.
 */
 
