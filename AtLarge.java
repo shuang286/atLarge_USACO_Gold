@@ -9,14 +9,14 @@ every leaf, and branching inwards from every leaf. That number represents the le
 take to reach the leaves (distance from the leaf).
 
 Then we give every barn/node another number, the number of barns away from where the cow Bessie initially starts
-from (distance from Bessie's original position). To count how many farmers are needed to effectively catch Bessie,
+(distance from Bessie's original position). To count how many farmers are needed to effectively catch Bessie,
 I compare the two numbers (the distance from the nearest leaf and the distance from Bessie's initial position).
 If a barn's distance from the nearest leaf is either the same or one less than the distance from Bessie's original
 position, then I know we need a farmer, adding one to the final count. This "the same or one less than" condition
-is ensured by (b >= c.f) and "return" in method dfs2 (depth-first search, cow Bessie moves from the original position).
+is ensured by (b >= c.f) and "return" in method dfs2 (depth-first search, cow Bessie moves from the original
+position).
 
 */
-
 class Path {
 	public int s;
 	public int d;
