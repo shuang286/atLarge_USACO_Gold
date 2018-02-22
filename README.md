@@ -1,13 +1,13 @@
 # atLarge_USACO_Gold
 ### atLarge problem in USACO Gold in Jan 2018
 
-In this tree, problem we go from the leaves (dead ends) of the entire barn tree inwards, mapping every barn
+In this tree problem, we go from the leaves (dead ends) of the entire barn tree inwards, mapping every barn
 with a number using recursion. I was effectively able to give the least number to every internal node by starting from
 every leaf, and branching inwards from every leaf. That number represented the least number of barns it would
-take to reach the leaves (distance from the nearest leaf).
+take to reach the leaves (distance from the nearest leaf) from each internal node.
 
 Then we give every barn/node another number, the number of barns away from where the cow Bessie initially started
-from (distance from Bessie's original position). To count how many farmers are needed to effectively corner Bessie,
+from (distance from Bessie's original position). To count how many farmers are needed to effectively catch Bessie,
 I just simply compared the two numbers (the distance from the nearest leaf and the distance from Bessie's initial position).
 If a barn's distance from the nearest leaf was either the same or one less than the distance from
 Bessie's original position, then I knew we needed a farmer, adding one to the final count.
