@@ -6,8 +6,8 @@ with a number using recursion. I was able to assign the least number to every in
 every leaf, and branching inwards from every leaf. That number represented the least number of barns it would
 take to reach the leaves (distance from the nearest leaf) from each internal node.
 
-Then we give every barn/node another number, the number of barns away from where the cow Bessie initially started
-from (distance from Bessie's original position). To count how many farmers are needed to effectively catch Bessie,
+Then we give every barn/node another number, the number of barns away from where the cow Bessie initially starts
+(distance from Bessie's original position). To count how many farmers are needed to effectively catch Bessie,
 I compare the two numbers (the distance from the nearest leaf and the distance from Bessie's initial position).
 If a barn's distance from the nearest leaf is either the same or one less than the distance from
 Bessie's original position, then I know we need a farmer, adding one to the final count.
