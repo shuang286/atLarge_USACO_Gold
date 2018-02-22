@@ -1,7 +1,7 @@
 # atLarge_USACO_Gold
 ### atLarge problem in USACO Gold in Jan 2018
 
-In this tree problem we go from the leaves (dead ends) of the entire barn tree inwards, mapping every barn
+In this tree, problem we go from the leaves (dead ends) of the entire barn tree inwards, mapping every barn
 with a number using recursion. I was effectively able to give the least number to every internal node by starting from
 every leaf, and branching inwards from every leaf. That number represented the least number of barns it would
 take to reach the leaves (distance from the nearest leaf).
